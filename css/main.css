@@ -1,1 +1,26 @@
-/* Main stylesheet */
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-VariableFont_wdth,wght.ttf");
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn-primary {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
