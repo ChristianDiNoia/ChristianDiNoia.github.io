@@ -36,3 +36,9 @@ img {
     }
 
 }
+iframe {
+    width: 100%;
+    max-width: 700px;
+    aspect-ratio: 16 / 9;
+    border: none;
+}
