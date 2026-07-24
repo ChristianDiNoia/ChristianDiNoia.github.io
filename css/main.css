@@ -24,3 +24,15 @@ img {
     text-decoration: none;
     border-radius: 5px;
 }
+@media (max-width: 768px) {
+
+    body {
+        font-size: 1.1rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+}
