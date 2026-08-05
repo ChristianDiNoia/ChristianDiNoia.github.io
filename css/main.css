@@ -46,3 +46,17 @@ iframe {
     aspect-ratio: 16 / 9;
     border: none;
 }
+.hero {
+    background-image: url("../images/coffee.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1,
+.hero p {
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
